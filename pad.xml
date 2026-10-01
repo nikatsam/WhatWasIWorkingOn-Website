@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>Manual XML</MASTER_PAD_EDITOR>
+    <MASTER_PAD_INFO>Portable Application Description for What Was I Working On?</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+  <Company_Info>
+    <Company_Name>Nikatsam</Company_Name>
+    <Address_1 />
+    <Address_2 />
+    <City_Town />
+    <State_Province />
+    <Zip_Postal_Code />
+    <Country />
+    <Company_WebSite_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/</Company_WebSite_URL>
+    <Contact_Info>
+      <Author_First_Name />
+      <Author_Last_Name />
+      <Author_Email />
+      <Contact_First_Name />
+      <Contact_Last_Name />
+      <Contact_Email />
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email />
+      <Support_Email />
+      <General_Email />
+      <Sales_Phone />
+      <Support_Phone />
+      <General_Phone />
+      <Fax_Phone />
+    </Support_Info>
+  </Company_Info>
+  <Program_Info>
+    <Program_Name>What Was I Working On?</Program_Name>
+    <Program_Version>1.0.0.0</Program_Version>
+    <Program_Release_Month />
+    <Program_Release_Day />
+    <Program_Release_Year />
+    <Program_Cost_Dollars />
+    <Program_Cost_Other_Code />
+    <Program_Cost_Other />
+    <Program_Type />
+    <Program_Release_Status>New Release</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>Win10 x64,Win11,WinOther</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info>Initial release.</Program_Change_Info>
+    <Program_Specific_Category>Productivity</Program_Specific_Category>
+    <Program_Category_Class>Desktop::Productivity</Program_Category_Class>
+    <Program_System_Requirements>Windows 10 version 1809 (build 17763) or later, or Windows 11. Supports x64 and ARM64 Windows desktop devices. The optional Widgets integration requires Windows 11. Microsoft Store provides the required Windows App Runtime dependency.</Program_System_Requirements>
+    <File_Info>
+      <File_Size_Bytes />
+      <File_Size_K />
+      <File_Size_MB />
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Count>0</Expire_Count>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Other_Info />
+      <Expire_Month />
+      <Expire_Day />
+      <Expire_Year />
+    </Expire_Info>
+  </Program_Info>
+  <Program_Descriptions>
+    <English>
+      <Keywords>recent files, work history, file finder, Windows productivity, recent folders, reopen files</Keywords>
+      <Char_Desc_45>Find the files and folders you used recently</Char_Desc_45>
+      <Char_Desc_80>Search recent Windows files and folders, then get back to work quickly.</Char_Desc_80>
+      <Char_Desc_250>What Was I Working On? helps you find recently used files, folders, and applications. Search your local work history, open an item again, or show its location in File Explorer. Your history stays on your Windows PC.</Char_Desc_250>
+      <Char_Desc_450>Lost track of a document, folder, or application? What Was I Working On? brings recent work into one searchable Windows view. Find items by name, app, folder, or file type, then reopen them or show their location. History is encrypted and stored locally; no account or cloud sync is required.</Char_Desc_450>
+      <Char_Desc_2000>What Was I Working On? helps you pick up where you left off when you forget a filename or which application you used. Open the quick recent-work panel with Alt + Space, or browse the full history window. Search and filter by filename, folder, application, or extension, then reopen an item or show it in File Explorer. Optional Windows 11 widgets provide a glance at recent work. The app keeps history in encrypted local storage and does not require an online account or cloud sync. Windows 10 version 1809 or later and Windows 11 are supported on x64 and ARM64 PCs. Windows 11 is required for the optional Widgets integration. Microsoft Store provides the required Windows App Runtime dependency.</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/</Application_Info_URL>
+      <Application_Order_URL>https://apps.microsoft.com/search?query=What%20Was%20I%20Working%20On</Application_Order_URL>
+      <Application_Screenshot_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/assets/recent-work.png</Application_Screenshot_URL>
+      <Application_Icon_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/assets/app-icon.png</Application_Icon_URL>
+      <Application_XML_File_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>https://apps.microsoft.com/search?query=What%20Was%20I%20Working%20On</Primary_Download_URL>
+      <Secondary_Download_URL />
+      <Additional_Download_URL_1 />
+      <Additional_Download_URL_2 />
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+    <Distribution_Permissions />
+    <EULA />
+  </Permissions>
+</XML_DIZ_INFO>
