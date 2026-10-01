@@ -1,6 +1,6 @@
 # GitHub Pages product site
 
-This folder contains the standalone static product site and its own copies of the product images. It has no build step, external JavaScript, analytics, or tracking pixels.
+This folder contains the standalone static product site, its own copies of the product images, and a small set of practical Windows guides. It has no build step, external JavaScript, analytics, or tracking pixels.
 
 ## Hosting without exposing the app repository
 
@@ -19,6 +19,6 @@ The call-to-action buttons link to Microsoft Store search for the exact product 
 
 ## Search indexing
 
-The page includes a canonical URL, descriptive page and social metadata, crawlable headings and text, image alt text, `robots.txt`, an XML sitemap, and SoftwareApplication, BreadcrumbList, and FAQPage JSON-LD. Once the site is public, submit the sitemap to Google Search Console and Bing Webmaster Tools and add their verification tags or files if you want those consoles to report indexing status. Search engines decide when and how pages appear; metadata cannot guarantee placement or rich results.
+The site includes canonical URLs, descriptive page and social metadata, crawlable headings and text, image alt text, `robots.txt`, an XML sitemap covering the home page and guides, and SoftwareApplication, Article, CollectionPage, BreadcrumbList, and FAQPage JSON-LD. Once the guides are published, submit the sitemap to Google Search Console and Bing Webmaster Tools and add their verification tags or files if you want those consoles to report indexing status. Search engines decide when and how pages appear; metadata cannot guarantee placement or rich results.
 
 This is a project site, not the account-level `nikatsam.github.io` site. Its URL includes the repository name.

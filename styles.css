@@ -134,6 +134,20 @@ kbd { padding: 2px 5px; border: 1px solid rgba(36,33,53,.14); border-radius: 4px
 .faq-list details[open] summary::after { content: "−"; }
 .faq-list details p { max-width: 710px; margin: 13px 40px 2px 0; color: var(--muted); font-size: 12px; line-height: 1.8; }
 
+.guides-section { padding: 0 max(28px, calc((100vw - 1120px) / 2)) 105px; }
+.guides-heading { display: flex; align-items: end; justify-content: space-between; gap: 25px; margin-bottom: 27px; }
+.guides-heading .eyebrow { margin-bottom: 11px; }
+.guides-heading h2 { margin-bottom: 8px; font-size: 36px; letter-spacing: -.06em; }
+.guides-heading p:not(.eyebrow) { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.guides-heading > .text-link { flex: none; padding-bottom: 4px; }
+.guide-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+.guide-card { min-height: 135px; display: flex; flex-direction: column; align-items: flex-start; padding: 19px 21px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.6); text-decoration: none; transition: transform .2s, border-color .2s, box-shadow .2s; }
+.guide-card:hover { transform: translateY(-3px); border-color: rgba(98,72,232,.35); box-shadow: 0 12px 28px rgba(45,39,83,.08); }
+.guide-card-label { margin-bottom: 12px; color: var(--purple); font-size: 8px; font-weight: 700; letter-spacing: .13em; }
+.guide-card strong { margin-bottom: 9px; font-family: var(--display); font-size: 15px; letter-spacing: -.025em; }
+.guide-card-meta { color: var(--muted); font-size: 10px; }
+.guide-card-meta span { margin-left: 4px; color: var(--purple); }
+
 .final-cta { position: relative; padding: 83px 20px 78px; overflow: hidden; background: linear-gradient(120deg, #5c43e0 0%, #7350e8 53%, #8c58df 100%); color: white; text-align: center; }
 .final-cta::before, .final-cta::after { position: absolute; width: 260px; height: 260px; border: 1px solid rgba(255,255,255,.13); border-radius: 50%; content: ""; }
 .final-cta::before { top: -120px; left: calc(50% - 500px); }
@@ -173,6 +187,7 @@ kbd { padding: 2px 5px; border: 1px solid rgba(36,33,53,.14); border-radius: 4px
   .privacy-points { grid-column: 2; grid-template-columns: 1fr 1fr; }
   .history-section { grid-template-columns: 1fr; gap: 39px; padding-top: 75px; padding-bottom: 75px; }
   .history-copy { max-width: 580px; }
+  .guide-cards { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 600px) {
@@ -228,6 +243,11 @@ kbd { padding: 2px 5px; border: 1px solid rgba(36,33,53,.14); border-radius: 4px
   .faq-section .section-heading h2 { font-size: 38px; }
   .faq-list summary { font-size: 12px; }
   .faq-list details p { font-size: 11px; }
+  .guides-section { padding: 0 18px 72px; }
+  .guides-heading { align-items: flex-start; flex-direction: column; gap: 15px; }
+  .guides-heading h2 { font-size: 31px; }
+  .guide-cards { grid-template-columns: 1fr; gap: 8px; }
+  .guide-card { min-height: 120px; }
   .final-cta { padding: 69px 18px 63px; }
   .final-cta h2 { font-size: 54px; }
   .cta-sparkle { right: 9%; font-size: 22px; }
@@ -238,4 +258,72 @@ kbd { padding: 2px 5px; border: 1px solid rgba(36,33,53,.14); border-radius: 4px
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+.guide-index { width: min(1020px, calc(100% - 56px)); margin: 0 auto; padding-bottom: 80px; }
+.guide-index-heading { max-width: 760px; margin: 78px auto 50px; text-align: center; }
+.guide-index-heading .eyebrow { margin-bottom: 17px; }
+.guide-index-heading h1 { max-width: none; margin: 0 auto 17px; font-size: clamp(46px, 6vw, 70px); }
+.guide-index-heading h1 span { color: var(--purple); }
+.guide-index-heading > p:last-child { max-width: 620px; margin: auto; color: var(--muted); font-size: 14px; line-height: 1.8; }
+.guide-index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
+.guide-index-card { min-height: 220px; display: flex; flex-direction: column; align-items: flex-start; padding: 25px 26px; border: 1px solid var(--line); border-radius: 15px; background: rgba(255,255,255,.62); }
+.guide-index-card:nth-child(4n+1) { background: #eeeaff; border-color: transparent; }
+.guide-index-card:nth-child(4n+2) { background: #ffede2; border-color: transparent; }
+.guide-index-card:nth-child(4n+3) { background: #e3f2e9; border-color: transparent; }
+.guide-index-card:nth-child(4n) { background: #e5effc; border-color: transparent; }
+.guide-index-card h2 { margin: 0 0 9px; font-size: 21px; letter-spacing: -.045em; line-height: 1.2; }
+.guide-index-card h2 a { text-decoration: none; }
+.guide-index-card h2 a:hover { color: var(--purple); }
+.guide-index-card > p { margin-bottom: 20px; color: #626071; font-size: 12px; line-height: 1.75; }
+.guide-read-link { margin-top: auto; color: var(--purple); font-size: 11px; font-weight: 700; text-decoration: none; }
+.guide-read-link:hover { text-decoration: underline; }
+.guide-index-cta { margin-top: 34px; padding: 27px 31px; display: flex; align-items: center; justify-content: space-between; gap: 25px; border-radius: 15px; background: #25233a; color: white; }
+.guide-index-cta .eyebrow { margin-bottom: 9px; color: #b5aaff; }
+.guide-index-cta h2 { margin-bottom: 7px; font-size: 22px; letter-spacing: -.04em; }
+.guide-index-cta p:not(.eyebrow) { margin: 0; color: #c6c4d1; font-size: 11px; line-height: 1.7; }
+.guide-index-cta .button { flex: none; }
+
+.article-layout { width: min(930px, calc(100% - 56px)); margin: 0 auto; padding-bottom: 75px; }
+.article-layout .breadcrumbs { width: 100%; }
+.guide-article { max-width: 740px; margin: 0 auto; }
+.article-header { padding: 71px 0 35px; border-bottom: 1px solid var(--line); }
+.article-header .eyebrow { margin-bottom: 17px; }
+.article-header h1 { max-width: 740px; margin-bottom: 18px; font-size: clamp(43px, 6vw, 64px); letter-spacing: -.065em; line-height: 1.04; }
+.article-deck { max-width: 660px; margin-bottom: 20px; color: var(--muted); font-size: 17px; line-height: 1.7; }
+.article-byline { margin: 0; color: #858291; font-size: 10px; }
+.article-byline span { padding: 0 6px; color: #b2afba; }
+.article-body { padding: 28px 0 20px; color: #454352; font-size: 14px; line-height: 1.9; }
+.article-body > p { margin-bottom: 21px; }
+.article-body h2 { margin: 37px 0 11px; color: var(--ink); font-size: 25px; letter-spacing: -.045em; line-height: 1.25; }
+.article-body a { color: #513bd0; font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.article-body a:hover { color: #33219c; }
+.article-body strong { color: var(--ink); }
+.article-body ul, .article-body ol { display: grid; gap: 8px; margin: 0 0 24px; padding-left: 23px; }
+.article-body li { padding-left: 3px; }
+.article-body code { padding: 2px 5px; border: 1px solid rgba(36,33,53,.1); border-radius: 4px; background: rgba(255,255,255,.65); color: #4333a4; font-size: .9em; }
+.article-callout { margin: 30px 0; padding: 19px 22px; border-left: 3px solid var(--purple); border-radius: 0 9px 9px 0; background: #eeeaff; }
+.article-callout strong { display: block; margin-bottom: 5px; font-family: var(--display); font-size: 13px; }
+.article-callout p { margin: 0; font-size: 12px; line-height: 1.8; }
+.article-next { max-width: 740px; margin: 17px auto 0; padding-top: 17px; display: flex; justify-content: space-between; gap: 15px; border-top: 1px solid var(--line); }
+.article-next a { color: var(--purple); font-size: 11px; font-weight: 700; text-decoration: none; }
+.article-next a:hover { text-decoration: underline; }
+
+@media (max-width: 600px) {
+  .guide-index { width: calc(100% - 36px); padding-bottom: 58px; }
+  .guide-index-heading { margin: 52px auto 31px; }
+  .guide-index-heading h1 { font-size: 45px; }
+  .guide-index-heading > p:last-child { font-size: 12px; }
+  .guide-index-grid { grid-template-columns: 1fr; gap: 9px; }
+  .guide-index-card { min-height: 0; padding: 20px; }
+  .guide-index-card h2 { font-size: 19px; }
+  .guide-index-card > p { margin-bottom: 14px; }
+  .guide-index-cta { align-items: flex-start; flex-direction: column; padding: 22px; }
+  .article-layout { width: calc(100% - 36px); padding-bottom: 55px; }
+  .article-header { padding: 51px 0 26px; }
+  .article-header h1 { font-size: 43px; }
+  .article-deck { font-size: 14px; }
+  .article-body { padding-top: 22px; font-size: 13px; line-height: 1.85; }
+  .article-body h2 { margin-top: 30px; font-size: 22px; }
+  .article-next { flex-direction: column; }
 }

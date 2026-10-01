@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="Learn what a recent-file history app needs to record, how local encrypted storage works, and how to control recent activity on your Windows PC.">
+  <meta name="author" content="Nikatsam">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/windows-file-history-privacy/">
+  <link rel="icon" type="image/png" href="../../assets/app-icon.png">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="What Was I Working On?">
+  <meta property="og:title" content="How local file history can stay private">
+  <meta property="og:description" content="A plain-language look at recent activity, local storage, encryption, and privacy controls on Windows.">
+  <meta property="og:url" content="https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/windows-file-history-privacy/">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="../../styles.css">
+  <title>How local file history can stay private | What Was I Working On?</title>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Article","headline":"How Local File History Can Stay Private","description":"A plain-language explanation of recent-activity signals, local encrypted storage, and privacy controls for a Windows file history app.","datePublished":"2026-10-01","dateModified":"2026-10-01","author":{"@type":"Organization","name":"Nikatsam"},"publisher":{"@type":"Organization","name":"Nikatsam"},"mainEntityOfPage":"https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/windows-file-history-privacy/"},
+      {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nikatsam.github.io/WhatWasIWorkingOn-Website/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/"},{"@type":"ListItem","position":3,"name":"File history and privacy"}]}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="../../" aria-label="What Was I Working On? home"><img src="../../assets/app-icon.png" alt="" width="42" height="42"><span>What Was I<br class="brand-break"> Working On?</span></a><nav aria-label="Main navigation"><a href="../../#features">Features</a><a href="../">Guides</a><a class="nav-cta" href="https://apps.microsoft.com/search?query=What%20Was%20I%20Working%20On" target="_blank" rel="noopener noreferrer">Microsoft Store <span aria-hidden="true">↗</span></a></nav></header>
+  <main id="main" class="article-layout">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../">Guides</a></li><li aria-current="page">Local history and privacy</li></ol></nav>
+    <article class="guide-article">
+      <header class="article-header"><p class="eyebrow">PRIVACY · 4 MIN</p><h1>How local file history can stay private</h1><p class="article-deck">A useful recent-work history needs context. It should also be clear about what it sees, where it stores it, and what it does not do.</p><p class="article-byline">By Nikatsam <span>·</span> Updated 1 October 2026</p></header>
+      <div class="article-body">
+        <p>“Recent files” can mean several different things: a list kept by an individual app, links Windows creates for recently opened items, or a separate history database. Knowing the difference helps you make an informed choice about privacy.</p>
+        <h2>Recent activity is not the same as scanning a disk</h2>
+        <p>A recent-work tool can use activity signals that Windows and supported apps already expose—for example, Windows Recent Items, application jump lists, the foreground app, or an app’s recent-document list. That is different from walking every folder on a drive and cataloguing its contents.</p>
+        <p>What Was I Working On? is designed around those existing signals. It does not index your disks or inspect document contents. Like any recent-activity tool, it may still handle names, paths, app names, and timestamps so it can show and search your activity.</p>
+        <h2>Local storage and encryption</h2>
+        <p>The app keeps its history in encrypted local storage using SQLCipher-based encryption, with the database key protected using Windows DPAPI. This is intended to protect stored history on the device; it is not a claim that no other software on an already-unlocked Windows account could ever access information.</p>
+        <p>The app does not upload file history, require an online account, or rely on cloud sync for its core features. Its core recent-work features are intended to work offline.</p>
+        <h2>Controls that put you in charge</h2>
+        <ul><li><strong>Pause tracking:</strong> stop recording new activity while leaving saved history available.</li><li><strong>Retention:</strong> choose how long history is kept.</li><li><strong>Clear history:</strong> remove history stored by the app.</li><li><strong>Recovery scans:</strong> start them only when you choose; a selected candidate is copied into encrypted app storage before it is opened.</li></ul>
+        <h2>What clearing app history does not do</h2>
+        <p>Clearing this app’s history does not automatically clear Windows Recent Items or the recent-document lists maintained by Word, Excel, or other apps. Those are separate sources with their own settings. Similarly, pausing this app’s tracking does not change those Windows or app-level lists.</p>
+        <h2>Make a privacy decision that fits your device</h2>
+        <p>If you share a Windows account or use a managed work PC, consider the device’s account and access settings as well as any recent-file feature. Review retention periodically and pause or clear app history whenever that better fits the situation.</p>
+        <aside class="article-callout"><strong>Plain-language summary</strong><p>What Was I Working On? stores its own history locally and encrypted. It uses recent-activity signals; it does not read the contents of your documents or upload your file history.</p></aside>
+      </div>
+    </article>
+    <nav class="article-next" aria-label="More guides"><a href="../get-back-to-work-faster/">← Previous: Get back to work faster</a><a href="../what-to-know-about-file-recovery/">Next: Recovery files →</a></nav>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="../../"><img src="../../assets/app-icon.png" alt="" width="36" height="36"><span>What Was I Working On?</span></a><p>Made for the moments you lose your place. <span>© 2026 Nikatsam</span></p><nav aria-label="Footer navigation"><a href="../../">Home</a><a href="../">Guides</a><a href="../../#privacy">Privacy</a></nav></footer>
+</body>
+</html>

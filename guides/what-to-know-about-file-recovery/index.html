@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="Understand application recovery and AutoRecover files on Windows: where candidates come from, what an on-demand scan does, and what it cannot guarantee.">
+  <meta name="author" content="Nikatsam">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/what-to-know-about-file-recovery/">
+  <link rel="icon" type="image/png" href="../../assets/app-icon.png">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="What Was I Working On?">
+  <meta property="og:title" content="What to know about application recovery files">
+  <meta property="og:description" content="Learn what recovery candidates are, how an on-demand scan works, and why unsaved-file recovery is never guaranteed.">
+  <meta property="og:url" content="https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/what-to-know-about-file-recovery/">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="../../styles.css">
+  <title>What to know about application recovery files | What Was I Working On?</title>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Article","headline":"What to Know About Application Recovery Files","description":"Learn what recovery candidates are, how an on-demand scan works, and why recovery of unsaved documents is not guaranteed.","datePublished":"2026-10-01","dateModified":"2026-10-01","author":{"@type":"Organization","name":"Nikatsam"},"publisher":{"@type":"Organization","name":"Nikatsam"},"mainEntityOfPage":"https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/what-to-know-about-file-recovery/"},
+      {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nikatsam.github.io/WhatWasIWorkingOn-Website/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/"},{"@type":"ListItem","position":3,"name":"Application recovery files"}]}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="../../" aria-label="What Was I Working On? home"><img src="../../assets/app-icon.png" alt="" width="42" height="42"><span>What Was I<br class="brand-break"> Working On?</span></a><nav aria-label="Main navigation"><a href="../../#features">Features</a><a href="../">Guides</a><a class="nav-cta" href="https://apps.microsoft.com/search?query=What%20Was%20I%20Working%20On" target="_blank" rel="noopener noreferrer">Microsoft Store <span aria-hidden="true">↗</span></a></nav></header>
+  <main id="main" class="article-layout">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../">Guides</a></li><li aria-current="page">Application recovery files</li></ol></nav>
+    <article class="guide-article">
+      <header class="article-header"><p class="eyebrow">RECOVERY · 5 MIN</p><h1>What to know about application recovery files</h1><p class="article-deck">Some apps save temporary recovery data while you work. It can be useful after a crash—but it is not a complete or guaranteed backup.</p><p class="article-byline">By Nikatsam <span>·</span> Updated 1 October 2026</p></header>
+      <div class="article-body">
+        <p>When an app closes unexpectedly, you may see a recovery prompt the next time it starts. That recovery file exists because the app saved temporary work before the interruption. If no suitable recovery data was saved, there may be nothing to restore.</p>
+        <h2>First, check the app itself</h2>
+        <p>Reopen the application that was working on the document and follow its recovery or AutoRecover prompt. Check the app’s own recent files and recovery guidance before trying to open unfamiliar temporary files. For important work, save a normal copy as soon as it is recovered.</p>
+        <h2>Why temporary recovery files vary</h2>
+        <p>Recovery behaviour and file locations depend on the application, version, user settings, and what happened when it closed. A temporary file can be incomplete, old, or in a proprietary format. A file with a promising name is not proof that it contains the latest work.</p>
+        <h2>What an on-demand candidate scan can do</h2>
+        <p>What Was I Working On? includes an optional, user-initiated scan of known recovery locations for supported applications. It can present candidate files with details such as source app, timestamp, filename, size, and confidence. It does not search every temporary folder or every application.</p>
+        <p>If you choose a candidate, the app makes an encrypted copy in its own recovery area before opening that copy. It does not modify or delete the application’s source temporary file.</p>
+        <h2>What it cannot promise</h2>
+        <ul><li>It cannot recover work that an application never saved to a recoverable location.</li><li>It cannot guarantee a candidate is complete, current, or opens successfully.</li><li>Supported locations can vary between application versions and device configurations.</li><li>A recovery candidate is not a substitute for regular, versioned backups.</li></ul>
+        <h2>Reduce the chance of losing work</h2>
+        <p>Turn on autosave or AutoRecover in apps that support it, choose a sensible save interval, and keep a separate backup of important projects. Save reminders can be useful prompts, but they cannot know whether a document has unsaved changes unless the application explicitly provides that information.</p>
+        <aside class="article-callout"><strong>Use recovery carefully</strong><p>Keep the original candidate untouched until you have checked the recovered copy. If the work is business-critical, preserve the device and consider the application vendor’s recovery instructions before changing temporary files.</p></aside>
+      </div>
+    </article>
+    <nav class="article-next" aria-label="More guides"><a href="../windows-file-history-privacy/">← Previous: Local history and privacy</a><a href="../">All guides →</a></nav>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="../../"><img src="../../assets/app-icon.png" alt="" width="36" height="36"><span>What Was I Working On?</span></a><p>Made for the moments you lose your place. <span>© 2026 Nikatsam</span></p><nav aria-label="Footer navigation"><a href="../../">Home</a><a href="../">Guides</a><a href="../../#privacy">Privacy</a></nav></footer>
+</body>
+</html>

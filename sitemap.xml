@@ -2,6 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/</loc>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/find-recent-files-windows/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/get-back-to-work-faster/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/windows-file-history-privacy/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nikatsam.github.io/WhatWasIWorkingOn-Website/guides/what-to-know-about-file-recovery/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
