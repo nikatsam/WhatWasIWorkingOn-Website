@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f7f2">
   <meta name="description" content="Find the files and folders you were just working on. Search recent work, reopen it instantly, and keep your history private on your Windows PC.">
-  <meta name="keywords" content="recent files Windows, reopen recent files, Windows productivity app, file history, recent folders, Windows 11 widget">
   <meta name="author" content="Nikatsam">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://nikatsam.github.io/WhatWasIWorkingOn-Website/">
@@ -14,6 +13,7 @@
   <title>What Was I Working On? — Find your recent work instantly</title>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="What Was I Working On?">
+  <meta property="og:locale" content="en_US">
   <meta property="og:title" content="What Was I Working On? — Find your recent work instantly">
   <meta property="og:description" content="A private, lightweight Windows app that helps you find the files and folders you were just working on.">
   <meta property="og:url" content="https://nikatsam.github.io/WhatWasIWorkingOn-Website/">
@@ -29,10 +29,27 @@
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebSite",
+        "@id": "https://nikatsam.github.io/WhatWasIWorkingOn-Website/#website",
+        "name": "What Was I Working On?",
+        "url": "https://nikatsam.github.io/WhatWasIWorkingOn-Website/",
+        "inLanguage": "en",
+        "publisher": {
+          "@id": "https://github.com/nikatsam#organization"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://github.com/nikatsam#organization",
+        "name": "Nikatsam",
+        "url": "https://github.com/nikatsam"
+      },
+      {
         "@type": "SoftwareApplication",
         "@id": "https://nikatsam.github.io/WhatWasIWorkingOn-Website/#app",
         "name": "What Was I Working On?",
         "alternateName": "What Was I Working On",
+        "url": "https://nikatsam.github.io/WhatWasIWorkingOn-Website/",
         "applicationCategory": "ProductivityApplication",
         "operatingSystem": "Windows 10 version 1809 or later, Windows 11",
         "description": "A local-first Windows productivity app for finding recently used files and folders, searching work history, and opening items again.",
@@ -43,10 +60,7 @@
           "https://nikatsam.github.io/WhatWasIWorkingOn-Website/assets/recent-widget.png"
         ],
         "softwareVersion": "1.0.0.0",
-        "author": {
-          "@type": "Organization",
-          "name": "Nikatsam"
-        },
+        "author": {"@id": "https://github.com/nikatsam#organization"},
         "featureList": [
           "Open a recent-work overlay with Alt + Space",
           "Search and filter recent items by name, app, folder, or file type",
@@ -54,8 +68,7 @@
           "Optional Windows 11 recent-work widget",
           "Encrypted local history storage",
           "No account, cloud sync, or telemetry"
-        ],
-        "downloadUrl": "https://apps.microsoft.com/search?query=What%20Was%20I%20Working%20On"
+        ]
       },
       {
         "@type": "BreadcrumbList",
@@ -63,8 +76,8 @@
           {
             "@type": "ListItem",
             "position": 1,
-            "name": "Nikatsam",
-            "item": "https://github.com/nikatsam"
+            "name": "Home",
+            "item": "https://nikatsam.github.io/WhatWasIWorkingOn-Website/"
           },
           {
             "@type": "ListItem",
@@ -123,8 +136,7 @@
   <main id="main">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <ol>
-        <li><a href="https://github.com/nikatsam">Nikatsam</a></li>
-        <li aria-current="page">What Was I Working On?</li>
+        <li aria-current="page">Home</li>
       </ol>
     </nav>
     <section class="hero">
