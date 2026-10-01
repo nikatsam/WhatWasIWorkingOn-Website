@@ -21,4 +21,6 @@ The call-to-action buttons link to Microsoft Store search for the exact product 
 
 The site includes canonical URLs, descriptive page and social metadata, crawlable headings and text, image alt text, `robots.txt`, an XML sitemap covering the home page and guides, and SoftwareApplication, Article, CollectionPage, BreadcrumbList, and FAQPage JSON-LD. Once the guides are published, submit the sitemap to Google Search Console and Bing Webmaster Tools and add their verification tags or files if you want those consoles to report indexing status. Search engines decide when and how pages appear; metadata cannot guarantee placement or rich results.
 
+The root-level `5236cce0528840139d690bb4f23fbbee.txt` file is the public IndexNow verification key. IndexNow submits changed page URLs, not sitemap files; the sitemap provides the URL list to notify.
+
 This is a project site, not the account-level `nikatsam.github.io` site. Its URL includes the repository name.
