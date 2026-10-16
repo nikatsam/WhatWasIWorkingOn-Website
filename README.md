@@ -15,11 +15,11 @@ To update the public site, copy the contents of this folder (including the hidde
 
 ## Microsoft Store link
 
-The call-to-action buttons link to Microsoft Store search for the exact product name. If you have the app's direct Store URL or Store product ID, replace the `https://apps.microsoft.com/search?query=What%20Was%20I%20Working%20On` links in `index.html` and the `downloadUrl` in the structured data with the direct listing URL.
+The call-to-action buttons link to the app's Microsoft Store listing (`https://apps.microsoft.com/detail/9P963MWV3JR5`, Store ID 9P963MWV3JR5). The same URL is used in the structured data (`downloadUrl`, `installUrl`) and in `pad.xml`. If the listing ever changes, update those places.
 
 ## Search indexing
 
-The site includes canonical URLs, descriptive page and social metadata, crawlable headings and text, image alt text, `robots.txt`, an XML sitemap covering the home page and guides, and SoftwareApplication, Article, CollectionPage, BreadcrumbList, and FAQPage JSON-LD. Once the guides are published, submit the sitemap to Google Search Console and Bing Webmaster Tools and add their verification tags or files if you want those consoles to report indexing status. Search engines decide when and how pages appear; metadata cannot guarantee placement or rich results.
+The site includes canonical URLs, descriptive page and social metadata, crawlable headings and text, image alt text, `robots.txt`, an XML sitemap covering the home page and guides, and SoftwareApplication, Article, CollectionPage, BreadcrumbList, and FAQPage JSON-LD. The PAD 3.11 software description is available at `pad.xml`; its Microsoft Store URL points to the direct listing (Store ID 9P963MWV3JR5). Search engines and directories decide whether to use metadata; it cannot guarantee placement or rich results.
 
 The root-level `5236cce0528840139d690bb4f23fbbee.txt` file is the public IndexNow verification key. IndexNow submits changed page URLs, not sitemap files; the sitemap provides the URL list to notify.
 

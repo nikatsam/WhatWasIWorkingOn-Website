@@ -34,7 +34,7 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>What Was I Working On?</Program_Name>
-    <Program_Version>1.0.0.0</Program_Version>
+    <Program_Version>1.1.0.0</Program_Version>
     <Program_Release_Month />
     <Program_Release_Day />
     <Program_Release_Year />
@@ -78,13 +78,13 @@
   <Web_Info>
     <Application_URLs>
       <Application_Info_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/</Application_Info_URL>
-      <Application_Order_URL>https://apps.microsoft.com/search?query=What%20Was%20I%20Working%20On</Application_Order_URL>
+      <Application_Order_URL>https://apps.microsoft.com/detail/9P963MWV3JR5</Application_Order_URL>
       <Application_Screenshot_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/assets/recent-work.png</Application_Screenshot_URL>
       <Application_Icon_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/assets/app-icon.png</Application_Icon_URL>
       <Application_XML_File_URL>https://nikatsam.github.io/WhatWasIWorkingOn-Website/pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>https://apps.microsoft.com/search?query=What%20Was%20I%20Working%20On</Primary_Download_URL>
+      <Primary_Download_URL>https://apps.microsoft.com/detail/9P963MWV3JR5</Primary_Download_URL>
       <Secondary_Download_URL />
       <Additional_Download_URL_1 />
       <Additional_Download_URL_2 />
